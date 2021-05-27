@@ -21,7 +21,7 @@ function criarBG(){
 
 function criarCobrinha(){
     for(var i = 0;i<snake.length;i++){
-        context.fillStyle = "green";
+        context.fillStyle = "rgb(46, 46, 219)";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
